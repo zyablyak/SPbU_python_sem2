@@ -21,4 +21,5 @@ jobs:
       - name: "mypy"
         run: mypy
       - name: "pytests"
-        run: pytest
+        run: pytest -m pytest
+        
